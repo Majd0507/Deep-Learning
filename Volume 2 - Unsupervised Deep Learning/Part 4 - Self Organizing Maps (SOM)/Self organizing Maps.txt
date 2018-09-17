@@ -1,0 +1,30 @@
+A self-organizing map (SOM) or self-organizing feature map (SOFM) is a type of artificial neural network (ANN) that is 
+trained using unsupervised learning to produce a low-dimensional (typically two-dimensional), discretized representation 
+of the input space of the training samples, called a map, and is therefore a method to do dimensionality reduction. 
+Self-organizing maps differ from other artificial neural networks as they apply competitive learning as opposed to 
+error-correction learning (such as backpropagation with gradient descent), and in the sense that they use a neighborhood 
+function to preserve the topological properties of the input space.
+
+A self-organizing map showing U.S. Congress voting patterns. The input data was a table with a row for each member of 
+Congress, and columns for certain votes containing each member's yes/no/abstain vote. The SOM algorithm arranged these 
+members in a two-dimensional grid placing similar members closer together. The first plot shows the grouping when the data 
+are split into two clusters. The second plot shows average distance to neighbours: larger distances are darker. The third 
+plot predicts Republican (red) or Democratic (blue) party membership. The other plots each overlay the resulting map with 
+predicted values on an input dimension: red means a predicted 'yes' vote on that bill, blue means a 'no' vote. The plot 
+was created in Synapse.
+
+This makes SOMs useful for visualization by creating low-dimensional views of high-dimensional data, akin to 
+multidimensional scaling. The artificial neural network introduced by the Finnish professor Teuvo Kohonen in the 1980s is 
+sometimes called a Kohonen map or network. The Kohonen net is a computationally convenient abstraction building on 
+biological models of neural systems from the 1970s and morphogenesis models dating back to Alan Turing in the 1950s.
+
+While it is typical to consider this type of network structure as related to feedforward networks where the nodes are 
+visualized as being attached, this type of architecture is fundamentally different in arrangement and motivation.
+
+Useful extensions include using toroidal grids where opposite edges are connected and using large numbers of nodes.
+
+It has been shown that while self-organizing maps with a small number of nodes behave in a way that is similar to K-means, larger self-organizing maps rearrange data in a way that is fundamentally topological in character.
+
+It is also common to use the U-Matrix.[5] The U-Matrix value of a particular node is the average distance between the node's weight vector and that of its closest neighbors.[6] In a square grid, for instance, we might consider the closest 4 or 8 nodes (the Von Neumann and Moore neighborhoods, respectively), or six nodes in a hexagonal grid.
+
+Large SOMs display emergent properties. In maps consisting of thousands of nodes, it is possible to perform cluster operations on the map itself.

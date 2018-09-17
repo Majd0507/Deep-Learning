@@ -1,0 +1,19 @@
+An autoencoder is a type of artificial neural network used to learn efficient data codings in an unsupervised manner. 
+The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of 
+dimensionality reduction. Recently, the autoencoder concept has become more widely used for learning generative models of 
+data. Some of the most powerful AI in the 2010s have involved sparse autoencoders stacked inside of deep neural networks.
+
+An autoencoder learns to compress data from the input layer into a short code, and then uncompress that code into 
+something that closely matches the original data. This forces the autoencoder to engage in dimensionality reduction, for 
+example by learning how to ignore noise. Some architectures use stacked sparse autoencoder layers for image recognition. 
+The first autoencoder might learn to encode easy features like corners, the second to analyze the first layer's output and 
+then encode less local features like the tip of a nose, the third might encode a whole nose, etc., until the final 
+autoencoder encodes the whole image into a code that matches the concept of "cat". An alternative use is as a generative 
+model: for example, if a system is manually fed the codes it has learned for "cat" and "flying", it may attempt to 
+generate an image of a flying cat, even if it has never seen a flying cat before.
+
+Types of autoencoder :
+-Vanilla autoencoder
+-Multilayer autoencoder
+-Convolutional autoencoder
+-Regularized autoencoder

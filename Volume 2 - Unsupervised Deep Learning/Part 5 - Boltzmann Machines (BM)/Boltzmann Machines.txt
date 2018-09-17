@@ -1,0 +1,14 @@
+A Boltzmann machine (also called stochastic Hopfield network with hidden units) is a type of stochastic recurrent neural 
+network (and Markov random field).
+
+Boltzmann machines can be seen as the stochastic, generative counterpart of Hopfield nets. They were one of the first 
+neural networks capable of learning internal representations, and are able to represent and solve difficult combinatoric 
+problems.
+
+They are theoretically intriguing because of the locality and Hebbian nature of their training algorithm, and because of 
+their parallelism and the resemblance of their dynamics to simple physical processes. Boltzmann machines with 
+unconstrained connectivity have not proven useful for practical problems in machine learning or inference, but if the 
+connectivity is properly constrained, the learning can be made efficient enough to be useful for practical problems.
+
+They are named after the Boltzmann distribution in statistical mechanics, which is used in their sampling function. 
+That's why they are called as Energy Based Models(EBM).
